@@ -1,0 +1,24 @@
+{
+ "name": "sal-driver-lwip-nuvoton",
+ "version": "1.0.0",
+ "description": "meta-module for Nuvoton ethernet drivers",
+ "keywords": [
+    "mbed",
+    "nuvoton",
+    "ethernet",
+    "lwip"
+  ],
+ "author": "Chris <cyliang@nuvoton.com>",
+ "repository": {
+    "url": "git@github.com:ARMmbed/sal-driver-lwip-nuvoton.git",
+   "type": "git"
+  },
+ "homepage": "https://github.com/ARMmbed/sal-driver-lwip-nuvoton",
+ "license": "Apache-2.0",
+ "dependencies": {},
+ "targetDependencies": {
+    "nuc472" : { 
+      "sal-driver-lwip-nuc472-eth" : "^1.0.0"
+    }
+  }
+}
